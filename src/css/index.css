@@ -1,0 +1,31 @@
+:root {
+  --headerColor : #778899;
+  --mainColor: #f1f1f1;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: sans-serif;
+  background: var(--mainColor);
+}
+
+header{
+  padding: 1em;
+  color:white;
+  background: var(--headerColor)
+}
+
+itemlist{
+  display:block;
+  padding:1em;
+}
+
+itemlist ul{
+  list-style: none;
+  margin-top: 1em;
+}
