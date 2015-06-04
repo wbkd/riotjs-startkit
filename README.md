@@ -1,4 +1,4 @@
-# riot.js - cssnext - webpack starterkit
+# riot.js starterkit
 
 Under construction ... 
 
