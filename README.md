@@ -1,6 +1,13 @@
 # riot.js starterkit
 
-Under construction ... 
+**Under construction ...**
+
+This starterkit is based on:
+
+* [riot.js](https://muut.com/riotjs/)
+* [RiotControl](https://github.com/jimsparkman/RiotControl/)
+* [cssnext](http://cssnext.io/)
+* [webpack](http://webpack.github.io/)
 
 
 ## Installation
