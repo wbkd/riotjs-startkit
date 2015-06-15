@@ -14,7 +14,7 @@ class ItemStore{
       setTimeout(() => {
         this.items = [{ name : 'test a' },{ name : 'test b' } ,{ name : 'test c' }, { name : 'test d' }];
         this.trigger(riot.EVT.loadItemsSuccess, this.items);
-      }, 500);
+      }, 200);
 
     });
   }

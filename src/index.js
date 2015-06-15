@@ -1,8 +1,6 @@
 import './css/index.css';
 
 import './event-helper';
-import './pages/app.tag';
-import './event-helper';
-import itemStore from './stores/itemstore'
+import './stores/itemstore'
 
-riot.mount('app');
+import './router.js';

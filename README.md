@@ -32,3 +32,6 @@ After starting the server you can visit localhost:1337
 ```
 $ npm build
 ```
+
+
+Thanks to https://github.com/txchen/feplay/tree/gh-pages/riot_webpack for the inspiration.

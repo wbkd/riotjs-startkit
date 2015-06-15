@@ -1,6 +1,14 @@
+@import '../../node_modules/normalize.css/normalize.css';
+
 :root {
   --headerColor : #778899;
   --mainColor: #f1f1f1;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 *{
@@ -20,12 +28,45 @@ header{
   background: var(--headerColor)
 }
 
+header h1{
+  float:left;
+  margin: 0;
+  font-size:1.25rem;
+}
+
+menu{
+  display:block;
+  float:right;
+}
+
+menu ul{
+  list-style: none;
+}
+
+menu ul li{
+  float:left;
+  margin-left:1em;
+  cursor:pointer;
+  user-select:none;
+  opacity: .7
+}
+
+menu ul li:hover{
+  opacity: .5;
+}
+
+menu ul li.active{
+  opacity: 1;
+}
+
+.content{
+  padding: 1em;
+}
+
 itemlist{
   display:block;
-  padding:1em;
 }
 
 itemlist ul{
   list-style: none;
-  margin-top: 1em;
 }
