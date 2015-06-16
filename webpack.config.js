@@ -1,7 +1,6 @@
 var webpack = require('webpack');
 
 module.exports = {
-  cache: true,
   entry: './src/index.js',
   output: {
     path: __dirname + '/build/',
@@ -25,6 +24,7 @@ module.exports = {
   },
   cssnext: {
     browsers: 'last 3 versions',
+    compress : true
   },
   devServer: {
     contentBase: './build',

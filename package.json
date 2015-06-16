@@ -4,9 +4,8 @@
   "description": "A riotjs - cssnext - webpack startkit from wbkd.io",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -p --progress --colors",
-    "start": "webpack-dev-server --progress --colors --hot --inline"
+    "build": "cp ./src/index.html ./build/index.html & webpack -p -d --progress --colors",
+    "dev": "cp ./src/index.html ./build/index.html & webpack-dev-server --progress --colors --hot --inline"
   },
   "author": "webkid.io",
   "license": "MIT",

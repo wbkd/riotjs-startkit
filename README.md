@@ -21,7 +21,7 @@ $ npm install
 ## Development
 
 ```
-$ npm start
+$ npm run dev
 ```
 
 After starting the server you can visit localhost:1337
@@ -30,8 +30,8 @@ After starting the server you can visit localhost:1337
 ## Build
 
 ```
-$ npm build
+$ npm run build
 ```
 
 
-Thanks to https://github.com/txchen/feplay/tree/gh-pages/riot_webpack for the inspiration.
+Thanks to https://github.com/txchen/feplay/tree/gh-pages/riot_webpack for a lot of ideas on how to structure the app.
