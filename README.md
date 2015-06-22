@@ -10,11 +10,11 @@ This starterkit is based on:
 
 We are also using the following postcss plugins to process the CSS:
 
-* [https://github.com/postcss/postcss-import](postcss-import)
-* [https://github.com/postcss/postcss-nested](postcss-nested)
-* [https://github.com/postcss/postcss-custom-properties](postcss-custom-properties)
-* [https://github.com/postcss/autoprefixer-core](autoprefixer-core)
-* [https://github.com/hail2u/node-csswring](csswring)
+* [postcss-import](https://github.com/postcss/postcss-import)
+* [postcss-nested](https://github.com/postcss/postcss-nested)
+* [postcss-custom-properties](https://github.com/postcss/postcss-custom-properties)
+* [autoprefixer-core](https://github.com/postcss/autoprefixer-core)
+* [csswring](https://github.com/hail2u/node-csswring)
 
 
 ## Installation
