@@ -1,5 +1,7 @@
 # riot.js starterkit
 
+With this starterkit we want to provide a simple foundation for riotjs applications.
+If you have any ideas on how to improve/simplify the structure you are welcome to help us.
 
 This starterkit is based on:
 
@@ -42,4 +44,4 @@ $ npm run build
 
 
 
-Thanks to https://github.com/txchen/feplay/tree/gh-pages/riot_webpack for a lot of ideas on how to structure the app.
+Thanks to https://github.com/txchen/feplay/tree/gh-pages/riot_webpack for a lot of concepts on how to structure the app.
