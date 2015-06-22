@@ -1,14 +1,14 @@
-# riot.js starterkit
+# Riot Starterkit
 
-With this starterkit we want to provide a simple foundation for riotjs applications.
+With this starterkit we want to provide **a simple foundation for Riot applications**.<br />
 If you have any ideas on how to improve/simplify the structure you are welcome to help us.
 
 This starterkit is based on:
 
-* [riot.js](https://muut.com/riotjs/)
+* [Riot](https://muut.com/riotjs/)
 * [RiotControl](https://github.com/jimsparkman/RiotControl/)
-* [postcss](https://github.com/postcss/postcss)
-* [webpack](http://webpack.github.io/)
+* [PostCSS](https://github.com/postcss/postcss)
+* [Webpack](http://webpack.github.io/)
 
 We are also using the following postcss plugins to process the CSS:
 
@@ -19,9 +19,13 @@ We are also using the following postcss plugins to process the CSS:
 * [csswring](https://github.com/hail2u/node-csswring)
 
 
-## Installation
+## Get the kit
 
-Install all dependencies. 
+```
+$ git clone git@github.com:wbkd/riotjs-startkit.git && cd riotjs-startkit
+```
+
+## Installation
 
 ```
 $ npm install
@@ -33,7 +37,7 @@ $ npm install
 $ npm run dev
 ```
 
-After starting the server you can visit localhost:1337
+Now the server is runnning on localhost:1337
 
 
 ## Build
