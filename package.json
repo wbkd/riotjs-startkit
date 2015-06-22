@@ -1,7 +1,7 @@
 {
   "name": "riot-startkit",
   "version": "1.0.0",
-  "description": "A riotjs - cssnext - webpack startkit from wbkd.io",
+  "description": "A Riot - PostCSS - Webpack startkit from wbkd.io",
   "main": "webpack.config.js",
   "scripts": {
     "build": "cp ./src/index.html ./build/index.html & webpack -p -d --progress --colors",
@@ -13,6 +13,10 @@
     "normalize.css": "^3.0.3",
     "riot": "^2.1.0",
     "riotcontrol": "0.0.1"
+  },
+  "repository": { 
+    "type" : "git", 
+    "url" : "https://github.com/wbkd/riotjs-startkit.git"
   },
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
