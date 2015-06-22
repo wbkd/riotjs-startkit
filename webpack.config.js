@@ -1,5 +1,12 @@
 var webpack = require('webpack');
 
+// postcss plugins
+var cssimport = require('postcss-import');
+var customProperties = require('postcss-custom-properties');
+var autoprefixer = require('autoprefixer-core');
+var csswring = require('csswring');
+var cssnested = require('postcss-nested');
+
 module.exports = {
   entry: './src/index.js',
   output: {
@@ -18,14 +25,10 @@ module.exports = {
     ],
     loaders: [
       { test: /\.js|\.tag$/, exclude: /node_modules/, include: /src/, loader: 'babel-loader', query: {modules: 'common'} },
-      { test: /\.json$/, loader: 'json' },
-      { test: /\.css$/, loader: 'style-loader!css-loader!cssnext-loader' }
+      { test: /\.css$/, loader: 'style-loader!css-loader!postcss-loader' }
     ]
   },
-  cssnext: {
-    browsers: 'last 3 versions',
-    compress : true
-  },
+  postcss: [cssimport, cssnested, customProperties, autoprefixer, csswring],
   devServer: {
     contentBase: './build',
     port: 1337
