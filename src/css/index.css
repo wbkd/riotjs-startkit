@@ -25,38 +25,39 @@ body{
 header{
   padding: 1em;
   color:white;
-  background: var(--headerColor)
-}
+  background: var(--headerColor);
 
-header h1{
-  float:left;
-  margin: 0;
-  font-size:1.25rem;
+  h1{
+    float:left;
+    margin: 0;
+    font-size:1.25rem;
+  }
+
 }
 
 menu{
   display:block;
   float:right;
-}
 
-menu ul{
-  list-style: none;
-}
+  ul{
+    list-style: none;
 
-menu ul li{
-  float:left;
-  margin-left:1em;
-  cursor:pointer;
-  user-select:none;
-  opacity: .7
-}
+    li{
+      float:left;
+      margin-left:1em;
+      cursor:pointer;
+      user-select:none;
+      opacity: .7
+    }
 
-menu ul li:hover{
-  opacity: .5;
-}
+    li:hover{
+      opacity: .5;
+    }
 
-menu ul li.active{
-  opacity: 1;
+    li.active{
+      opacity: 1;
+    }
+  }
 }
 
 .content{
@@ -65,8 +66,8 @@ menu ul li.active{
 
 itemlist{
   display:block;
-}
 
-itemlist ul{
-  list-style: none;
+  ul{
+    list-style: none;
+  }
 }
