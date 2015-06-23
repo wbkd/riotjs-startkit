@@ -8,12 +8,15 @@ var csswring = require('csswring');
 var cssnested = require('postcss-nested');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    app : ['./src/index.js']
+  },
   output: {
     path: __dirname + '/build/',
     filename: 'bundle.js'
   },
   devtool: 'eval',
+  debug: true,
   plugins: [
     new webpack.ProvidePlugin({
       riot: 'riot'
@@ -30,7 +33,9 @@ module.exports = {
   },
   postcss: [cssimport, cssnested, customProperties, autoprefixer, csswring],
   devServer: {
-    contentBase: './build',
-    port: 1337
+    contentBase: './build/',
+    port: 1337,
+    hot: true,
+    inline: true
   }
 };

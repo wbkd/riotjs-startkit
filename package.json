@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "cp ./src/index.html ./build/index.html & webpack -p -d --progress --colors",
-    "dev": "cp ./src/index.html ./build/index.html & webpack-dev-server --progress --colors --hot --inline"
+    "dev": "cp ./src/index.html ./build/index.html & webpack-dev-server --hot"
   },
   "author": "webkid.io",
   "license": "MIT",
