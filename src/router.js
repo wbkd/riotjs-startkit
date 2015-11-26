@@ -33,7 +33,7 @@ class Router{
     }
 
     riot.routeState.view = view;
-    this._currentView = riot.mountTo('#riot-app', view)[0];
+    this._currentView = riot.mount('#riot-app', view)[0];
   }
 
 }
