@@ -3,7 +3,7 @@ var webpack = require('webpack');
 // postcss plugins
 var cssimport = require('postcss-import');
 var customProperties = require('postcss-custom-properties');
-var autoprefixer = require('autoprefixer-core');
+var autoprefixer = require('autoprefixer');
 var csswring = require('csswring');
 var cssnested = require('postcss-nested');
 
