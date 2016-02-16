@@ -15,7 +15,7 @@ We are also using the following postcss plugins to process the CSS:
 * [postcss-import](https://github.com/postcss/postcss-import)
 * [postcss-nested](https://github.com/postcss/postcss-nested)
 * [postcss-custom-properties](https://github.com/postcss/postcss-custom-properties)
-* [autoprefixer-core](https://github.com/postcss/autoprefixer-core)
+* [autoprefixer](https://github.com/postcss/autoprefixer)
 * [csswring](https://github.com/hail2u/node-csswring)
 
 
