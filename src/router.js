@@ -1,7 +1,7 @@
 import './pages/home.tag'
 import './pages/projects.tag'
 
-// we need this to easily check the current route from every component 
+// we need this to easily check the current route from every component
 riot.routeState = {
   view : ''
 };
@@ -12,9 +12,9 @@ class Router{
     this._currentView = null;
     this._views = ['home', 'projects'];
     this._defaultView = 'home';
-    
+
     riot.route(this._handleRoute.bind(this));
-    riot.route.exec(this._handleRoute.bind(this));
+    riot.route.start(true);
   }
 
   _handleRoute(view){
@@ -24,7 +24,7 @@ class Router{
       return riot.route(this._defaultView);
     }
 
-    this._loadView(view); 
+    this._loadView(view);
   }
 
   _loadView(view){
